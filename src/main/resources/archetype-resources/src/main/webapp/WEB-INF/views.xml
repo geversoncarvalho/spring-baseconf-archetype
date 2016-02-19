@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="home.homeSignedIn" extends="default.layout">
+        <put-attribute name="body" value="/WEB-INF/views/home/homeSignedIn.jsp" />
+    </definition>
+    <definition name="home.homeNotSignedIn" extends="default.layout">
+        <put-attribute name="body" value="/WEB-INF/views/home/homeNotSignedIn.jsp" />
+    </definition>
+    <definition name="signin.signin" extends="default.layout">
+        <put-attribute name="body" value="/WEB-INF/views/signin/signin.jsp" />
+    </definition>
+    <definition name="signup.signup" extends="default.layout">
+        <put-attribute name="body" value="/WEB-INF/views/signup/signup.jsp" />
+    </definition>
+</tiles-definitions>
