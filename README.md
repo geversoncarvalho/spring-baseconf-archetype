@@ -32,6 +32,18 @@ Create a project
         -Dversion=version
 ```
 
+for powershell users:
+
+```bash
+    mvn archetype:generate `
+        '-DarchetypeGroupId=com.github.spring-baseconf' `
+        '-DarchetypeArtifactId=spring-baseconf-archetype' `
+        '-DarchetypeVersion=1.0.0' `
+        '-DgroupId=my.groupid' `
+        '-DartifactId=my-artifactId' `
+        '-Dversion=version'
+```
+
 Run the project
 ----------------
 ```bash
